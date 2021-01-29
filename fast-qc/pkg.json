@@ -1,0 +1,40 @@
+{
+    "name": "fast-qc",
+    "version": "0.1.0",
+    "description": "FastQC tool",
+    "main": "fast-qc",
+    "scripts": {
+        "test": "wfpm test"
+    },
+    "deprecated": false,
+    "keywords": [
+        "bioinformatics",
+        "seq",
+        "qc metrics"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/icgc-tcga-pancancer/demo-wfs.git"
+    },
+    "container": {
+        "registries": [
+            {
+                "registry": "ghcr.io",
+                "type": "docker",
+                "org": "icgc-tcga-pancancer",
+                "default": true
+            }
+        ]
+    },
+    "dependencies": [],
+    "devDependencies": [],
+    "contributors": [
+        {
+            "name": "Junjun Zhang",
+            "email": "junjun.zhang@oicr.on.ca"
+        }
+    ],
+    "license": "MIT",
+    "bugReport": "https://github.com/icgc-tcga-pancancer/demo-wfs/issues",
+    "homepage": "https://github.com/icgc-tcga-pancancer/demo-wfs#readme"
+}
