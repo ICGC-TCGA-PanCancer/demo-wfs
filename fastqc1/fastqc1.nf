@@ -7,7 +7,7 @@ nextflow.enable.dsl = 2
 version = '0.1.0'  // tool version
 
 container = [
-    'ghcr.io': 'ghcr.io/icgc-tcga-pancancer/icgc-tcga-pancancer.fastqc1'
+    'ghcr.io': 'ghcr.io/icgc-tcga-pancancer/demo-wfs.fastqc1'
 ]
 default_container_registry = 'ghcr.io'
 /********************************************************************/
