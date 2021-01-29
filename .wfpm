@@ -1,0 +1,5 @@
+project_name: demo-wfs
+license: MIT
+repo_type: git
+repo_server: github.com
+repo_account: icgc-tcga-pancancer
